@@ -1,7 +1,7 @@
 /* When called with "/", it returns the index.html static page.
  * When called with "/calculate/op/:op/num1/:num1/num2/:num2", it returns
  * the answer of the logical calculation
- */
+ *///
 
 // Set up some global constants for the program
 const express = require('express');
