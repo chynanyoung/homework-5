@@ -6,9 +6,7 @@
 // Set up some global constants for the program
 const express = require('express');
 const app = express();
-let port = process.env.PORT;
-if (port == null || port == "") {
-    port = 80;
+let port = process.env.PORT || 80;
 }
 app.listen(port);
 /**
